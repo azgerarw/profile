@@ -1,0 +1,85 @@
+.container {
+  width: 700px;
+  margin: 40px auto;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: beige;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  line-height: normal;
+}
+
+h1, h2 {
+  color: rgb(74, 53, 53);
+  font-size: small;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.list {
+
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+
+}
+
+.list li {
+
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#details {
+  padding: 5px, 20px;
+  color: burlywood;
+  border-radius: 5px;
+  border: none;
+  background-color: beige;
+  text-decoration: none;
+}
+
+#details:hover {
+  background-color: brown;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+}
+
+i:hover {
+  color: red;
+}
+
+
+
+.card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
